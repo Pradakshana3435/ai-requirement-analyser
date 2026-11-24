@@ -1,0 +1,73 @@
+{
+  "doc": "eval_02.txt",
+  "title": "Hospital Appointment Booking",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Patients can book an appointment with a doctor online.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Patients can book an appointment with a doctor through the website.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "The system must send a reminder before the appointment.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Doctors can mark themselves unavailable for a date range.",
+      "type": "functional"
+    },
+    {
+      "id": "G5",
+      "quote": "The booking page must load quickly.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "A patient cannot hold two appointments at the same time.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G7",
+      "quote": "Patient records must be encrypted at rest and in transit.",
+      "type": "constraint"
+    },
+    {
+      "id": "G8",
+      "quote": "Assumption: each doctor works fixed 30 minute slots.",
+      "type": "assumption"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "duplicate",
+      "req_ids": [
+        "G1",
+        "G2"
+      ]
+    }
+  ]
+}

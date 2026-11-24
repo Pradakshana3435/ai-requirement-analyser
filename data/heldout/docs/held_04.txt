@@ -1,0 +1,14 @@
+Hospital Pharmacy Stock System
+
+1. Pharmacists can issue medicines to a ward and the system must record the batch number.
+2. The system must alert the pharmacist when stock of any medicine drops below its reorder level.
+3. Expired medicines must never be issued.
+4. Stock reports must be available quickly.
+5. Narcotic medicines can only be issued with a doctor's digital signature.
+6. The system must keep an audit trail of every stock change.
+7. The system will be hosted on the hospital's private cloud.
+8. Stock counts are synchronised with the central store.
+9. Medicines can be returned to the pharmacy.
+10. Who approves the reorder of high-value drugs?
+11. The system must integrate with the existing billing module.
+12. Any medicine can be issued to a ward without extra approval.

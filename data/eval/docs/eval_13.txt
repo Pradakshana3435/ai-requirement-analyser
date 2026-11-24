@@ -1,0 +1,10 @@
+School Attendance System
+
+- Teachers can mark attendance for each class period.
+- Parents receive a message when their child is marked absent.
+- A student with attendance below 75% is not allowed to sit the final exam.
+- Attendance data should be stored for an appropriate period.
+- The system must be reliable.
+- Teachers can correct an attendance entry within the same day.
+- Reports are generated for the principal.
+- Assumption: every parent has registered a mobile number.

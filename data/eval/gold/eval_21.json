@@ -1,0 +1,66 @@
+{
+  "doc": "eval_21.txt",
+  "title": "Utility Billing",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Meter readings are uploaded daily by field staff.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Bills are generated every month from the meter readings.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Customers can pay bills online.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Late payments incur a penalty of 2% per month.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "The bill generation run must complete within 4 hours for 500,000 customers.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "The system should be scalable.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G7",
+      "quote": "The billing system depends on the meter data management system.",
+      "type": "dependency"
+    },
+    {
+      "id": "G8",
+      "quote": "Assumption: tariffs change at most once a year.",
+      "type": "assumption"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G6"
+      ]
+    }
+  ]
+}

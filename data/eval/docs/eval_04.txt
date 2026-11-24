@@ -1,0 +1,7 @@
+HR Leave Management
+
+Employees can apply for leave through the portal. Managers must approve or reject a leave request within 3 working days. The system should notify the relevant people when needed.
+
+Each employee gets 24 days of paid leave per year. Unused leave may be carried forward to the next year. The portal must be available 99.5% of the time during working hours.
+
+The portal integrates with the existing payroll system. Assumption: all employees have a company email address.

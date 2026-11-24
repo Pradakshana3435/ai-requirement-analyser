@@ -1,0 +1,78 @@
+{
+  "doc": "eval_06.txt",
+  "title": "Food Delivery Platform",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Customers can browse restaurants near their location.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Customers can filter restaurants by cuisine and rating.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Customers can track their order status in real time.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Orders should be delivered as soon as possible.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G5",
+      "quote": "Restaurants must confirm an order within 5 minutes or it is cancelled automatically.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "Delivery partners are assigned based on proximity.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G7",
+      "quote": "The platform depends on the payment gateway for online payments.",
+      "type": "dependency"
+    },
+    {
+      "id": "G8",
+      "quote": "Assumption: restaurants keep their menus up to date.",
+      "type": "assumption"
+    },
+    {
+      "id": "G9",
+      "quote": "Customers can browse restaurants close to where they are.",
+      "type": "functional"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "duplicate",
+      "req_ids": [
+        "G1",
+        "G9"
+      ]
+    }
+  ]
+}

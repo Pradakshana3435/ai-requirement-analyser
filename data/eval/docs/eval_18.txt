@@ -1,0 +1,7 @@
+Customer Relationship Management
+
+Sales staff can create and update customer contacts. Sales staff can record every interaction with a customer. The system should integrate with other tools.
+
+Managers can view a pipeline of open deals by stage. Deals above 10 lakh rupees need director approval. The CRM must be fast.
+
+Duplicate contacts are detected on import. Assumption: the sales team already uses the corporate email system.

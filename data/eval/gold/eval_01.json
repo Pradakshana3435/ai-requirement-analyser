@@ -1,0 +1,78 @@
+{
+  "doc": "eval_01.txt",
+  "title": "Library Management System",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Members must be able to search the catalogue by title, author or ISBN.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "The system shall respond to catalogue searches within 2 seconds for 95% of requests.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G3",
+      "quote": "A member may borrow up to 5 books at a time.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G4",
+      "quote": "A member may borrow up to 8 books at a time.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "The system should be user friendly.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "Overdue books incur a fine.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G7",
+      "quote": "The system depends on the university student database for member records.",
+      "type": "dependency"
+    },
+    {
+      "id": "G8",
+      "quote": "Assumption: every book has a unique barcode.",
+      "type": "assumption"
+    },
+    {
+      "id": "G9",
+      "quote": "How will lost books be handled?",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G3",
+        "G4"
+      ]
+    }
+  ]
+}

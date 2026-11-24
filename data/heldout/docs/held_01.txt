@@ -1,0 +1,17 @@
+Subject: Admission portal requirements
+
+Hi team,
+
+Following yesterday's call with the registrar, here is what the college wants from the new admission portal.
+
+Applicants should be able to fill the application form online and save it as a draft before submitting. The portal must allow upload of mark sheets and a photo. Applicants must pay the application fee before the form can be submitted.
+
+The fee is Rs 500 for all categories. The fee is Rs 300 for reserved categories. The portal needs to be really easy to use for first-time applicants.
+
+Results will be published on the website once the registrar approves them. We are assuming that all applicants have access to a smartphone or computer. The portal will depend on the university's existing payment gateway.
+
+Has anyone confirmed whether we need to support regional languages?
+
+Please let me know if I missed anything.
+Thanks,
+Ravi

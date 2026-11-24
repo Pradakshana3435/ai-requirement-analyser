@@ -1,0 +1,78 @@
+{
+  "doc": "eval_18.txt",
+  "title": "Customer Relationship Management",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Sales staff can create and update customer contacts.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Sales staff can record every interaction with a customer.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "The system should integrate with other tools.",
+      "type": "dependency"
+    },
+    {
+      "id": "G4",
+      "quote": "Managers can view a pipeline of open deals by stage.",
+      "type": "functional"
+    },
+    {
+      "id": "G5",
+      "quote": "Deals above 10 lakh rupees need director approval.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "The CRM must be fast.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G7",
+      "quote": "Duplicate contacts are detected on import.",
+      "type": "functional"
+    },
+    {
+      "id": "G8",
+      "quote": "Assumption: the sales team already uses the corporate email system.",
+      "type": "assumption"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G7"
+      ]
+    }
+  ]
+}

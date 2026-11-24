@@ -1,0 +1,11 @@
+Library Management System
+
+REQ-01: Members must be able to search the catalogue by title, author or ISBN.
+REQ-02: The system shall respond to catalogue searches within 2 seconds for 95% of requests.
+REQ-03: A member may borrow up to 5 books at a time.
+REQ-04: A member may borrow up to 8 books at a time.
+REQ-05: The system should be user friendly.
+REQ-06: Overdue books incur a fine.
+REQ-07: The system depends on the university student database for member records.
+REQ-08: Assumption: every book has a unique barcode.
+REQ-09: How will lost books be handled?

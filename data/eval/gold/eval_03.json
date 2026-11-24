@@ -1,0 +1,78 @@
+{
+  "doc": "eval_03.txt",
+  "title": "Ride Hailing App",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Riders must be able to request a ride from their current location.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "The app shall show the estimated arrival time of the driver.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Drivers must be able to accept or decline a ride request.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Payment is made in cash only.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "Riders can pay by card or wallet inside the app.",
+      "type": "functional"
+    },
+    {
+      "id": "G6",
+      "quote": "The app should handle a large number of users.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G7",
+      "quote": "The app depends on a third party maps service for routing.",
+      "type": "dependency"
+    },
+    {
+      "id": "G8",
+      "quote": "Fares are calculated based on distance and time.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G9",
+      "quote": "What happens when no driver is available nearby?",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G8"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G4",
+        "G5"
+      ]
+    }
+  ]
+}

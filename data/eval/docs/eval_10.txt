@@ -1,0 +1,10 @@
+Airline Check-in
+
+- Passengers can check in online between 48 hours and 2 hours before departure.
+- Passengers can check in online from 24 hours before departure.
+- Passengers can select a seat during check in.
+- The system shall generate a boarding pass as a PDF and as a QR code.
+- The check in process should be fast.
+- Extra baggage is charged at the standard rate.
+- The system depends on the airline reservation system for passenger data.
+- The service must handle peak load around holidays.

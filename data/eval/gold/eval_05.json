@@ -1,0 +1,78 @@
+{
+  "doc": "eval_05.txt",
+  "title": "Mobile Banking App",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Customers must log in with a password and a one time code.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Customers can view their last 90 days of transactions.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Customers can transfer money to saved beneficiaries.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "A single transfer cannot exceed 1,00,000 rupees.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "A single transfer cannot exceed 5,00,000 rupees.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "The app must be secure.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G7",
+      "quote": "Transaction screens must open in under 3 seconds on a 4G connection.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G8",
+      "quote": "The app must comply with applicable banking regulations.",
+      "type": "constraint"
+    },
+    {
+      "id": "G9",
+      "quote": "Should the app support fingerprint login?",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G8"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G4",
+        "G5"
+      ]
+    }
+  ]
+}

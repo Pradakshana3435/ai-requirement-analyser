@@ -1,0 +1,11 @@
+Warehouse Inventory Tracker
+
+REQ-01: Staff can scan a barcode to record stock received.
+REQ-02: The system must alert managers when an item falls below its reorder level.
+REQ-03: Stock counts must be updated immediately when items are shipped.
+REQ-04: Only managers can adjust stock counts manually.
+REQ-05: The system should be easy to maintain.
+REQ-06: Reports can be exported.
+REQ-07: The scanner app must work offline and sync when connectivity returns.
+REQ-08: The tracker depends on the ERP system for product master data.
+REQ-09: Who is responsible for the monthly stock audit?

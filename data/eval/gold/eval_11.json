@@ -1,0 +1,73 @@
+{
+  "doc": "eval_11.txt",
+  "title": "Insurance Claims Portal",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Policyholders can submit a claim with supporting documents.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Policyholders can upload photos and PDFs as supporting documents for a claim.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Claims above 50,000 rupees must be reviewed by a senior adjuster.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G4",
+      "quote": "Claims are processed efficiently.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G5",
+      "quote": "Adjusters can approve, reject or request more information on a claim.",
+      "type": "functional"
+    },
+    {
+      "id": "G6",
+      "quote": "The system must keep an audit log of every status change.",
+      "type": "constraint"
+    },
+    {
+      "id": "G7",
+      "quote": "Policyholders are notified of decisions.",
+      "type": "functional"
+    },
+    {
+      "id": "G8",
+      "quote": "Assumption: policy data is available in the policy administration system.",
+      "type": "assumption"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G7"
+      ]
+    },
+    {
+      "kind": "duplicate",
+      "req_ids": [
+        "G1",
+        "G2"
+      ]
+    }
+  ]
+}

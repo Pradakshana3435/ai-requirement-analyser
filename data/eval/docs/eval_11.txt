@@ -1,0 +1,10 @@
+Insurance Claims Portal
+
+REQ-01: Policyholders can submit a claim with supporting documents.
+REQ-02: Policyholders can upload photos and PDFs as supporting documents for a claim.
+REQ-03: Claims above 50,000 rupees must be reviewed by a senior adjuster.
+REQ-04: Claims are processed efficiently.
+REQ-05: Adjusters can approve, reject or request more information on a claim.
+REQ-06: The system must keep an audit log of every status change.
+REQ-07: Policyholders are notified of decisions.
+REQ-08: Assumption: policy data is available in the policy administration system.

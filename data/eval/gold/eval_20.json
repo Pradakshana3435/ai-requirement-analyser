@@ -1,0 +1,79 @@
+{
+  "doc": "eval_20.txt",
+  "title": "Recruitment Portal",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Candidates can create a profile and upload a resume.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Recruiters can post jobs and review applications.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Candidates are shortlisted automatically.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Candidates must be told the status of their application within 14 days.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "The portal should be easy to use.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "Candidate data must be deleted when a candidate requests it.",
+      "type": "constraint"
+    },
+    {
+      "id": "G7",
+      "quote": "Candidates can create an account and submit a resume.",
+      "type": "functional"
+    },
+    {
+      "id": "G8",
+      "quote": "The portal depends on the company career site for hosting.",
+      "type": "dependency"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "duplicate",
+      "req_ids": [
+        "G1",
+        "G7"
+      ]
+    }
+  ]
+}

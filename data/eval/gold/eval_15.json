@@ -1,0 +1,80 @@
+{
+  "doc": "eval_15.txt",
+  "title": "Payroll Processing",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "The system calculates monthly salary from base pay, allowances and deductions.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Payslips are generated automatically at the end of each month.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Payslips must be generated on the last working day of each month.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Salary is paid on the 1st of every month.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "Salary is paid on the 5th of every month.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "The payroll run should complete in a reasonable time.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G7",
+      "quote": "Tax is deducted according to the rules.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G8",
+      "quote": "Payroll data must be accessible only to authorised HR staff.",
+      "type": "constraint"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G7"
+      ]
+    },
+    {
+      "kind": "duplicate",
+      "req_ids": [
+        "G2",
+        "G3"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G4",
+        "G5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "doc": "eval_17.txt",
+  "title": "Telemedicine Platform",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Patients can start a video consultation with an available doctor.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Video quality must adapt to the patient's bandwidth.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Doctors can write and send e-prescriptions.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Consultation recordings are never stored.",
+      "type": "constraint"
+    },
+    {
+      "id": "G5",
+      "quote": "Consultation recordings are stored for 5 years.",
+      "type": "constraint"
+    },
+    {
+      "id": "G6",
+      "quote": "The platform must be HIPAA compliant.",
+      "type": "constraint"
+    },
+    {
+      "id": "G7",
+      "quote": "Patients are charged after the consultation.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G8",
+      "quote": "The platform should be available at all times.",
+      "type": "non_functional"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G2"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G7"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G8"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G8"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G4",
+        "G5"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Utility Billing
+
+Meter readings are uploaded daily by field staff. Bills are generated every month from the meter readings. Customers can pay bills online.
+
+Late payments incur a penalty of 2% per month. The bill generation run must complete within 4 hours for 500,000 customers. The system should be scalable.
+
+The billing system depends on the meter data management system. Assumption: tariffs change at most once a year.

@@ -1,0 +1,10 @@
+Telemedicine Platform
+
+REQ-01: Patients can start a video consultation with an available doctor.
+REQ-02: Video quality must adapt to the patient's bandwidth.
+REQ-03: Doctors can write and send e-prescriptions.
+REQ-04: Consultation recordings are never stored.
+REQ-05: Consultation recordings are stored for 5 years.
+REQ-06: The platform must be HIPAA compliant.
+REQ-07: Patients are charged after the consultation.
+REQ-08: The platform should be available at all times.

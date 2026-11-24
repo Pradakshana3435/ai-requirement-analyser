@@ -1,0 +1,7 @@
+Smart Home Controller
+
+Users can switch lights on and off from the mobile app. Users can create schedules for devices. The app must respond to a command within 1 second on the home network.
+
+The hub communicates with devices over Zigbee. The hub communicates with devices over Bluetooth only. The system should be intuitive for all users.
+
+Firmware updates must be applied automatically. How many devices must one hub support?

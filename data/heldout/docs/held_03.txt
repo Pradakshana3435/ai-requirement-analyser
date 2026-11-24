@@ -1,0 +1,9 @@
+Farm Produce Marketplace
+
+Farmers can list their produce with the quantity and price per kilo. Buyers can search the listings by crop and district. When a buyer places an order the farmer is notified immediately.
+
+The platform charges a commission of 4% on every completed sale. Buyers must pay in advance. Buyers can pay on delivery. A 4% commission is taken by the platform on each completed sale.
+
+The app should work for farmers who are not comfortable with technology. Produce photos must be compressed so the listing page loads on slow connections. The marketplace relies on the state agriculture department for the list of approved crops.
+
+We assume farmers will have a mobile number registered with the platform. Deliveries are arranged by a logistics partner. Dispute handling is not decided yet.

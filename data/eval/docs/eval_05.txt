@@ -1,0 +1,11 @@
+Mobile Banking App
+
+REQ-01: Customers must log in with a password and a one time code.
+REQ-02: Customers can view their last 90 days of transactions.
+REQ-03: Customers can transfer money to saved beneficiaries.
+REQ-04: A single transfer cannot exceed 1,00,000 rupees.
+REQ-05: A single transfer cannot exceed 5,00,000 rupees.
+REQ-06: The app must be secure.
+REQ-07: Transaction screens must open in under 3 seconds on a 4G connection.
+REQ-08: The app must comply with applicable banking regulations.
+REQ-09: Should the app support fingerprint login?

@@ -1,0 +1,73 @@
+{
+  "doc": "eval_14.txt",
+  "title": "Event Ticketing",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Customers can buy tickets for an event online.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "A customer can buy at most 6 tickets per event.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G3",
+      "quote": "A customer can buy at most 10 tickets per event.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G4",
+      "quote": "Tickets are delivered by email as a QR code.",
+      "type": "functional"
+    },
+    {
+      "id": "G5",
+      "quote": "The site must stay responsive when a popular event goes on sale.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "Organisers can see sales figures.",
+      "type": "functional"
+    },
+    {
+      "id": "G7",
+      "quote": "Refunds are allowed up to 7 days before the event.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G8",
+      "quote": "The system depends on the payment gateway for card payments.",
+      "type": "dependency"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G2",
+        "G3"
+      ]
+    }
+  ]
+}

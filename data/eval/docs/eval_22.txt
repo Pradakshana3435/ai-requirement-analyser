@@ -1,0 +1,10 @@
+Newsletter Platform
+
+- Editors can compose and schedule newsletters.
+- Subscribers can unsubscribe with a single click.
+- Subscribers must confirm their email address before receiving newsletters.
+- Emails should be delivered quickly.
+- The platform must send at most 1 newsletter per week to a subscriber.
+- The platform must send at least 3 newsletters per week to a subscriber.
+- Analytics are available for each newsletter.
+- The platform depends on a third party email service.

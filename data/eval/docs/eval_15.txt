@@ -1,0 +1,7 @@
+Payroll Processing
+
+The system calculates monthly salary from base pay, allowances and deductions. Payslips are generated automatically at the end of each month. Payslips must be generated on the last working day of each month.
+
+Salary is paid on the 1st of every month. Salary is paid on the 5th of every month. The payroll run should complete in a reasonable time.
+
+Tax is deducted according to the rules. Payroll data must be accessible only to authorised HR staff.

@@ -1,0 +1,7 @@
+Hotel Booking System
+
+Guests can search rooms by date, location and price range. Guests can cancel a booking free of charge up to 48 hours before check in. Guests can cancel a booking free of charge up to 24 hours before check in.
+
+The system should provide a great booking experience. Hotel managers can update room prices and availability. Confirmation emails must be sent after a successful booking.
+
+The system must be built on the company's existing cloud platform. Assumption: room rates are quoted in a single currency.

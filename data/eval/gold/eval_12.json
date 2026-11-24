@@ -1,0 +1,73 @@
+{
+  "doc": "eval_12.txt",
+  "title": "Smart Home Controller",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Users can switch lights on and off from the mobile app.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Users can create schedules for devices.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "The app must respond to a command within 1 second on the home network.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G4",
+      "quote": "The hub communicates with devices over Zigbee.",
+      "type": "constraint"
+    },
+    {
+      "id": "G5",
+      "quote": "The hub communicates with devices over Bluetooth only.",
+      "type": "constraint"
+    },
+    {
+      "id": "G6",
+      "quote": "The system should be intuitive for all users.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G7",
+      "quote": "Firmware updates must be applied automatically.",
+      "type": "functional"
+    },
+    {
+      "id": "G8",
+      "quote": "How many devices must one hub support?",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G7"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G4",
+        "G5"
+      ]
+    }
+  ]
+}

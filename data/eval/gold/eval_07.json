@@ -1,0 +1,67 @@
+{
+  "doc": "eval_07.txt",
+  "title": "E-Learning Portal",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Students can enrol in courses and view course materials.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Instructors can upload videos, slides and assignments.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Videos must be encoded so they play on low bandwidth connections.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Students must score at least 40% to pass a course.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "Students must score at least 50% to pass a course.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "The system must generate certificates for completed courses.",
+      "type": "functional"
+    },
+    {
+      "id": "G7",
+      "quote": "The portal must support 2,000 concurrent students without degradation.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G8",
+      "quote": "The system relies on the college single sign on service.",
+      "type": "dependency"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G4",
+        "G5"
+      ]
+    }
+  ]
+}

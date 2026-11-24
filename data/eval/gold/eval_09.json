@@ -1,0 +1,77 @@
+{
+  "doc": "eval_09.txt",
+  "title": "Warehouse Inventory Tracker",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Staff can scan a barcode to record stock received.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "The system must alert managers when an item falls below its reorder level.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Stock counts must be updated immediately when items are shipped.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Only managers can adjust stock counts manually.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "The system should be easy to maintain.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "Reports can be exported.",
+      "type": "functional"
+    },
+    {
+      "id": "G7",
+      "quote": "The scanner app must work offline and sync when connectivity returns.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G8",
+      "quote": "The tracker depends on the ERP system for product master data.",
+      "type": "dependency"
+    },
+    {
+      "id": "G9",
+      "quote": "Who is responsible for the monthly stock audit?",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G6"
+      ]
+    }
+  ]
+}

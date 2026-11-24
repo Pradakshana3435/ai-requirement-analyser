@@ -1,0 +1,79 @@
+{
+  "doc": "eval_10.txt",
+  "title": "Airline Check-in",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Passengers can check in online between 48 hours and 2 hours before departure.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G2",
+      "quote": "Passengers can check in online from 24 hours before departure.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G3",
+      "quote": "Passengers can select a seat during check in.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "The system shall generate a boarding pass as a PDF and as a QR code.",
+      "type": "functional"
+    },
+    {
+      "id": "G5",
+      "quote": "The check in process should be fast.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "Extra baggage is charged at the standard rate.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G7",
+      "quote": "The system depends on the airline reservation system for passenger data.",
+      "type": "dependency"
+    },
+    {
+      "id": "G8",
+      "quote": "The service must handle peak load around holidays.",
+      "type": "non_functional"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G8"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G1",
+        "G2"
+      ]
+    }
+  ]
+}

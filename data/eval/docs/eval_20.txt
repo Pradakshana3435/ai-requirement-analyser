@@ -1,0 +1,10 @@
+Recruitment Portal
+
+REQ-01: Candidates can create a profile and upload a resume.
+REQ-02: Recruiters can post jobs and review applications.
+REQ-03: Candidates are shortlisted automatically.
+REQ-04: Candidates must be told the status of their application within 14 days.
+REQ-05: The portal should be easy to use.
+REQ-06: Candidate data must be deleted when a candidate requests it.
+REQ-07: Candidates can create an account and submit a resume.
+REQ-08: The portal depends on the company career site for hosting.

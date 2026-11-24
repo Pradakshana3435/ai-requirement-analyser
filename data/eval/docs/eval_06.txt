@@ -1,0 +1,11 @@
+Food Delivery Platform
+
+- Customers can browse restaurants near their location.
+- Customers can filter restaurants by cuisine and rating.
+- Customers can track their order status in real time.
+- Orders should be delivered as soon as possible.
+- Restaurants must confirm an order within 5 minutes or it is cancelled automatically.
+- Delivery partners are assigned based on proximity.
+- The platform depends on the payment gateway for online payments.
+- Assumption: restaurants keep their menus up to date.
+- Customers can browse restaurants close to where they are.

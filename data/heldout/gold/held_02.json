@@ -1,0 +1,89 @@
+{
+  "doc": "held_02.txt",
+  "title": "Vaccination Tracker (meeting notes)",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Parents can record each vaccine given to their child.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "The app sends a reminder when a dose is due soon.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Health workers can view the vaccination history of any child in their area.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Only health workers can edit a vaccine record once it is saved.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "Parents can edit a vaccine record at any time.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "Records must be stored on servers located in India.",
+      "type": "constraint"
+    },
+    {
+      "id": "G7",
+      "quote": "The app must be fast even in villages with poor network.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G8",
+      "quote": "The government immunisation database will provide the vaccine schedule.",
+      "type": "dependency"
+    },
+    {
+      "id": "G9",
+      "quote": "Assumption: every child has a unique birth registration number.",
+      "type": "assumption"
+    },
+    {
+      "id": "G10",
+      "quote": "How many children will the system need to support?",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G2"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G2"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G7"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G7"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G4",
+        "G5"
+      ]
+    }
+  ]
+}

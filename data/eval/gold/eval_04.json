@@ -1,0 +1,66 @@
+{
+  "doc": "eval_04.txt",
+  "title": "HR Leave Management",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Employees can apply for leave through the portal.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Managers must approve or reject a leave request within 3 working days.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G3",
+      "quote": "The system should notify the relevant people when needed.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Each employee gets 24 days of paid leave per year.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "Unused leave may be carried forward to the next year.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "The portal must be available 99.5% of the time during working hours.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G7",
+      "quote": "The portal integrates with the existing payroll system.",
+      "type": "dependency"
+    },
+    {
+      "id": "G8",
+      "quote": "Assumption: all employees have a company email address.",
+      "type": "assumption"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G5"
+      ]
+    }
+  ]
+}

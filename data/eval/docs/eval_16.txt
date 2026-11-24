@@ -1,0 +1,10 @@
+Gym Membership App
+
+- Members can purchase or renew a membership in the app.
+- Members can book a class up to 7 days in advance.
+- A class booking can be cancelled up to 2 hours before the class starts.
+- Members get a discount if they refer a friend.
+- The app should look modern.
+- The front desk can check a member in by scanning a QR code.
+- The app depends on the turnstile vendor's API for door access.
+- Does the gym want to support family plans?

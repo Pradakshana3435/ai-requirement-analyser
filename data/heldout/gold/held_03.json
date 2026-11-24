@@ -1,0 +1,111 @@
+{
+  "doc": "held_03.txt",
+  "title": "Farm Produce Marketplace",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Farmers can list their produce with the quantity and price per kilo.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Buyers can search the listings by crop and district.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "When a buyer places an order the farmer is notified immediately.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "The platform charges a commission of 4% on every completed sale.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "Buyers must pay in advance.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "Buyers can pay on delivery.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G7",
+      "quote": "A 4% commission is taken by the platform on each completed sale.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G8",
+      "quote": "The app should work for farmers who are not comfortable with technology.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G9",
+      "quote": "Produce photos must be compressed so the listing page loads on slow connections.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G10",
+      "quote": "The marketplace relies on the state agriculture department for the list of approved crops.",
+      "type": "dependency"
+    },
+    {
+      "id": "G11",
+      "quote": "We assume farmers will have a mobile number registered with the platform.",
+      "type": "assumption"
+    },
+    {
+      "id": "G12",
+      "quote": "Deliveries are arranged by a logistics partner.",
+      "type": "dependency"
+    },
+    {
+      "id": "G13",
+      "quote": "Dispute handling is not decided yet.",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G8"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G8"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G9"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G12"
+      ]
+    },
+    {
+      "kind": "duplicate",
+      "req_ids": [
+        "G4",
+        "G7"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G5",
+        "G6"
+      ]
+    }
+  ]
+}

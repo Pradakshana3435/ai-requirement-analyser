@@ -1,0 +1,10 @@
+Event Ticketing
+
+REQ-01: Customers can buy tickets for an event online.
+REQ-02: A customer can buy at most 6 tickets per event.
+REQ-03: A customer can buy at most 10 tickets per event.
+REQ-04: Tickets are delivered by email as a QR code.
+REQ-05: The site must stay responsive when a popular event goes on sale.
+REQ-06: Organisers can see sales figures.
+REQ-07: Refunds are allowed up to 7 days before the event.
+REQ-08: The system depends on the payment gateway for card payments.

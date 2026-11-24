@@ -1,0 +1,73 @@
+{
+  "doc": "eval_22.txt",
+  "title": "Newsletter Platform",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Editors can compose and schedule newsletters.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Subscribers can unsubscribe with a single click.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Subscribers must confirm their email address before receiving newsletters.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G4",
+      "quote": "Emails should be delivered quickly.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G5",
+      "quote": "The platform must send at most 1 newsletter per week to a subscriber.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "The platform must send at least 3 newsletters per week to a subscriber.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G7",
+      "quote": "Analytics are available for each newsletter.",
+      "type": "functional"
+    },
+    {
+      "id": "G8",
+      "quote": "The platform depends on a third party email service.",
+      "type": "dependency"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G7"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G5",
+        "G6"
+      ]
+    }
+  ]
+}

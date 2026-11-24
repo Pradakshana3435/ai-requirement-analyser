@@ -1,0 +1,15 @@
+Water Tanker Booking (draft from the ward office)
+
+* Residents book a tanker through the app or by calling the ward office.
+* Booking is possible only for residents of the ward.
+* Each household can book at most 2 tankers per month.
+* Each household can book at most 4 tankers per month.
+* The tanker should reach the house in a reasonable time.
+* Residents get an SMS when the tanker is on the way.
+* Payment is collected on delivery.
+* Tanker drivers can mark a delivery as completed in the app.
+* The ward office can see all bookings on a map.
+* We assume that tankers are available throughout the year.
+* The app uses the city GIS service for the map.
+* Do we need to handle bookings for apartment complexes differently?
+* The system must be secure.

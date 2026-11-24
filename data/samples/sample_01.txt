@@ -1,0 +1,11 @@
+Project: Online Bookstore - Business Requirements
+
+The website should be fast and easy to use. Customers must be able to register with their email address and log in. The system shall allow customers to search books by title, author or ISBN.
+
+Customers can pay by credit card or UPI. Payment should be processed quickly. The system should not allow checkout for out-of-stock items.
+
+We assume the payment gateway will be provided by a third party. The admin should be able to add books. Customers need to log in to place an order.
+
+Orders must be delivered in 2 days. Delivery can take up to 5 days. The system must be secure.
+
+What happens if a payment fails?

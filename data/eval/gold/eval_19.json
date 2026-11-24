@@ -1,0 +1,73 @@
+{
+  "doc": "eval_19.txt",
+  "title": "Parking Management",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Drivers can reserve a parking space for a chosen time window.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "The entry gate opens automatically when it reads a valid reservation.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "Parking is charged per hour.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G4",
+      "quote": "The maximum stay is 12 hours.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "The maximum stay is 24 hours.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "Number plate recognition must work in poor lighting.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G7",
+      "quote": "The system depends on the camera vendor's recognition software.",
+      "type": "dependency"
+    },
+    {
+      "id": "G8",
+      "quote": "What happens to a vehicle that overstays?",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G4",
+        "G5"
+      ]
+    }
+  ]
+}

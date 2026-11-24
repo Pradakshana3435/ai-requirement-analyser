@@ -1,0 +1,72 @@
+{
+  "doc": "eval_13.txt",
+  "title": "School Attendance System",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Teachers can mark attendance for each class period.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Parents receive a message when their child is marked absent.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "A student with attendance below 75% is not allowed to sit the final exam.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G4",
+      "quote": "Attendance data should be stored for an appropriate period.",
+      "type": "constraint"
+    },
+    {
+      "id": "G5",
+      "quote": "The system must be reliable.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "Teachers can correct an attendance entry within the same day.",
+      "type": "functional"
+    },
+    {
+      "id": "G7",
+      "quote": "Reports are generated for the principal.",
+      "type": "functional"
+    },
+    {
+      "id": "G8",
+      "quote": "Assumption: every parent has registered a mobile number.",
+      "type": "assumption"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G7"
+      ]
+    }
+  ]
+}

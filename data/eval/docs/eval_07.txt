@@ -1,0 +1,10 @@
+E-Learning Portal
+
+REQ-01: Students can enrol in courses and view course materials.
+REQ-02: Instructors can upload videos, slides and assignments.
+REQ-03: Videos must be encoded so they play on low bandwidth connections.
+REQ-04: Students must score at least 40% to pass a course.
+REQ-05: Students must score at least 50% to pass a course.
+REQ-06: The system must generate certificates for completed courses.
+REQ-07: The portal must support 2,000 concurrent students without degradation.
+REQ-08: The system relies on the college single sign on service.

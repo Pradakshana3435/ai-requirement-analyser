@@ -1,0 +1,88 @@
+{
+  "doc": "held_01.txt",
+  "title": "Admission Portal (email)",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Applicants should be able to fill the application form online",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "save it as a draft before submitting",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "The portal must allow upload of mark sheets and a photo.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Applicants must pay the application fee before the form can be submitted.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "The fee is Rs 500 for all categories.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G6",
+      "quote": "The fee is Rs 300 for reserved categories.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G7",
+      "quote": "The portal needs to be really easy to use for first-time applicants.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G8",
+      "quote": "Results will be published on the website once the registrar approves them.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G9",
+      "quote": "We are assuming that all applicants have access to a smartphone or computer.",
+      "type": "assumption"
+    },
+    {
+      "id": "G10",
+      "quote": "The portal will depend on the university's existing payment gateway.",
+      "type": "dependency"
+    },
+    {
+      "id": "G11",
+      "quote": "Has anyone confirmed whether we need to support regional languages?",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G3"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G7"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G7"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G5",
+        "G6"
+      ]
+    }
+  ]
+}

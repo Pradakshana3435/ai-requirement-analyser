@@ -1,0 +1,11 @@
+Ride Hailing App
+
+REQ-01: Riders must be able to request a ride from their current location.
+REQ-02: The app shall show the estimated arrival time of the driver.
+REQ-03: Drivers must be able to accept or decline a ride request.
+REQ-04: Payment is made in cash only.
+REQ-05: Riders can pay by card or wallet inside the app.
+REQ-06: The app should handle a large number of users.
+REQ-07: The app depends on a third party maps service for routing.
+REQ-08: Fares are calculated based on distance and time.
+REQ-09: What happens when no driver is available nearby?

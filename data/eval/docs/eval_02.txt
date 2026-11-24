@@ -1,0 +1,10 @@
+Hospital Appointment Booking
+
+- Patients can book an appointment with a doctor online.
+- Patients can book an appointment with a doctor through the website.
+- The system must send a reminder before the appointment.
+- Doctors can mark themselves unavailable for a date range.
+- The booking page must load quickly.
+- A patient cannot hold two appointments at the same time.
+- Patient records must be encrypted at rest and in transit.
+- Assumption: each doctor works fixed 30 minute slots.

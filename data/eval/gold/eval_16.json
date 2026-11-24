@@ -1,0 +1,66 @@
+{
+  "doc": "eval_16.txt",
+  "title": "Gym Membership App",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Members can purchase or renew a membership in the app.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Members can book a class up to 7 days in advance.",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "A class booking can be cancelled up to 2 hours before the class starts.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G4",
+      "quote": "Members get a discount if they refer a friend.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "The app should look modern.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "The front desk can check a member in by scanning a QR code.",
+      "type": "functional"
+    },
+    {
+      "id": "G7",
+      "quote": "The app depends on the turnstile vendor's API for door access.",
+      "type": "dependency"
+    },
+    {
+      "id": "G8",
+      "quote": "Does the gym want to support family plans?",
+      "type": "open_question"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    }
+  ]
+}

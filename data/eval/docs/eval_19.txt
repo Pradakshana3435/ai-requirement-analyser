@@ -1,0 +1,10 @@
+Parking Management
+
+- Drivers can reserve a parking space for a chosen time window.
+- The entry gate opens automatically when it reads a valid reservation.
+- Parking is charged per hour.
+- The maximum stay is 12 hours.
+- The maximum stay is 24 hours.
+- Number plate recognition must work in poor lighting.
+- The system depends on the camera vendor's recognition software.
+- What happens to a vehicle that overstays?

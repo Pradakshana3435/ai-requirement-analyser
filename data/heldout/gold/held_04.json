@@ -1,0 +1,104 @@
+{
+  "doc": "held_04.txt",
+  "title": "Hospital Pharmacy Stock System",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Pharmacists can issue medicines to a ward",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "the system must record the batch number",
+      "type": "functional"
+    },
+    {
+      "id": "G3",
+      "quote": "The system must alert the pharmacist when stock of any medicine drops below its reorder level.",
+      "type": "functional"
+    },
+    {
+      "id": "G4",
+      "quote": "Expired medicines must never be issued.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "Stock reports must be available quickly.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "Narcotic medicines can only be issued with a doctor's digital signature.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G7",
+      "quote": "The system must keep an audit trail of every stock change.",
+      "type": "constraint"
+    },
+    {
+      "id": "G8",
+      "quote": "The system will be hosted on the hospital's private cloud.",
+      "type": "constraint"
+    },
+    {
+      "id": "G9",
+      "quote": "Stock counts are synchronised with the central store.",
+      "type": "functional"
+    },
+    {
+      "id": "G10",
+      "quote": "Medicines can be returned to the pharmacy.",
+      "type": "functional"
+    },
+    {
+      "id": "G11",
+      "quote": "Who approves the reorder of high-value drugs?",
+      "type": "open_question"
+    },
+    {
+      "id": "G12",
+      "quote": "The system must integrate with the existing billing module.",
+      "type": "dependency"
+    },
+    {
+      "id": "G13",
+      "quote": "Any medicine can be issued to a ward without extra approval.",
+      "type": "business_rule"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G9"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G10"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G6",
+        "G13"
+      ]
+    }
+  ]
+}

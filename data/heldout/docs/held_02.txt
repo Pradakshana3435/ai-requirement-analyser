@@ -1,0 +1,19 @@
+Vaccination Tracker: meeting notes (12 March)
+
+Attendees: Meera, Dev, Anil
+
+Decisions:
+- Parents can record each vaccine given to their child.
+- The app sends a reminder when a dose is due soon.
+- Health workers can view the vaccination history of any child in their area.
+- Only health workers can edit a vaccine record once it is saved.
+- Parents can edit a vaccine record at any time.
+- Records must be stored on servers located in India.
+- The app must be fast even in villages with poor network.
+- The government immunisation database will provide the vaccine schedule.
+- Assumption: every child has a unique birth registration number.
+
+Open:
+- How many children will the system need to support?
+
+Next meeting on Friday.

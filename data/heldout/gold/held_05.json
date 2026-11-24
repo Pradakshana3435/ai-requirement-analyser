@@ -1,0 +1,104 @@
+{
+  "doc": "held_05.txt",
+  "title": "Water Tanker Booking (draft)",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Residents book a tanker through the app or by calling the ward office.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Booking is possible only for residents of the ward.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G3",
+      "quote": "Each household can book at most 2 tankers per month.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G4",
+      "quote": "Each household can book at most 4 tankers per month.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G5",
+      "quote": "The tanker should reach the house in a reasonable time.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G6",
+      "quote": "Residents get an SMS when the tanker is on the way.",
+      "type": "functional"
+    },
+    {
+      "id": "G7",
+      "quote": "Payment is collected on delivery.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G8",
+      "quote": "Tanker drivers can mark a delivery as completed in the app.",
+      "type": "functional"
+    },
+    {
+      "id": "G9",
+      "quote": "The ward office can see all bookings on a map.",
+      "type": "functional"
+    },
+    {
+      "id": "G10",
+      "quote": "We assume that tankers are available throughout the year.",
+      "type": "assumption"
+    },
+    {
+      "id": "G11",
+      "quote": "The app uses the city GIS service for the map.",
+      "type": "dependency"
+    },
+    {
+      "id": "G12",
+      "quote": "Do we need to handle bookings for apartment complexes differently?",
+      "type": "open_question"
+    },
+    {
+      "id": "G13",
+      "quote": "The system must be secure.",
+      "type": "non_functional"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G5"
+      ]
+    },
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G13"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G13"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G3",
+        "G4"
+      ]
+    }
+  ]
+}

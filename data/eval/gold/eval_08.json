@@ -1,0 +1,73 @@
+{
+  "doc": "eval_08.txt",
+  "title": "Hotel Booking System",
+  "requirements": [
+    {
+      "id": "G1",
+      "quote": "Guests can search rooms by date, location and price range.",
+      "type": "functional"
+    },
+    {
+      "id": "G2",
+      "quote": "Guests can cancel a booking free of charge up to 48 hours before check in.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G3",
+      "quote": "Guests can cancel a booking free of charge up to 24 hours before check in.",
+      "type": "business_rule"
+    },
+    {
+      "id": "G4",
+      "quote": "The system should provide a great booking experience.",
+      "type": "non_functional"
+    },
+    {
+      "id": "G5",
+      "quote": "Hotel managers can update room prices and availability.",
+      "type": "functional"
+    },
+    {
+      "id": "G6",
+      "quote": "Confirmation emails must be sent after a successful booking.",
+      "type": "functional"
+    },
+    {
+      "id": "G7",
+      "quote": "The system must be built on the company's existing cloud platform.",
+      "type": "constraint"
+    },
+    {
+      "id": "G8",
+      "quote": "Assumption: room rates are quoted in a single currency.",
+      "type": "assumption"
+    }
+  ],
+  "issues": [
+    {
+      "kind": "ambiguous",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "non_testable",
+      "req_ids": [
+        "G4"
+      ]
+    },
+    {
+      "kind": "incomplete",
+      "req_ids": [
+        "G6"
+      ]
+    },
+    {
+      "kind": "conflict",
+      "req_ids": [
+        "G2",
+        "G3"
+      ]
+    }
+  ]
+}
